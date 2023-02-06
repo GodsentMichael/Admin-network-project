@@ -4,7 +4,7 @@
             <img src="../assets/images/Naturcrystal logo png.png" style="height: 50px;" class="rounded-circle user-photo" alt="Company logo">
             <div class="dropdown">
                 <span>Welcome!</span>
-                <a href="javascript:void(0);" class="dropdown-toggle user-name" data-toggle="dropdown"><strong>User</strong></a>
+                <a href="javascript:void(0);" class="dropdown-toggle user-name" data-toggle="dropdown"><strong>Admin</strong></a>
                 <ul class="dropdown-menu dropdown-menu-right account">
                     <li><a href="page-profile2.html"><i class="icon-user"></i>My Profile</a></li>
                     <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
@@ -22,7 +22,7 @@
                 </li>
                 <li class="col-4">
                     <small>Plan</small>
-                    <h6>$2.13B</h6>
+                    <h6>₦2.13B</h6>
                 </li>
             </ul>
         </div>
@@ -41,25 +41,26 @@
                             <a href="user-dir.php"><i class="icon-home"></i> <span>Dashboard</span></a>
                         </li>
                         <li>
-                            <a href="my-referrals.php" class=""><img src="../assets/images/bonus.png" height="25px" width="25px" class="m-r-10"> <span>My Referals</span></a>
+                            <a href="members.php" class=""><img src="../assets/images/group-chat.png" height="25px" width="25px" class="m-r-10"> <span>Members</span></a>
                         </li>
                         <li>
-                            <a href="repurchasing-bonus.php" class=""><img src="../assets/images/credit-card.png" height="20px" width="20px" class="m-r-10"> <span>Repurchasing Bonus</span></a>
-                        </li>
-                        <!-- <li>
-                            <a href="#" class=""><img src="../assets/images/upgrade.png" height="20px" width="20px" class="m-r-10"> <span>Upgrade Bonus</span></a>
-                        </li> -->
-                        <li>
-                            <a href="#" class=""><img src="../assets/images/gift.png" height="20px" width="20px" class="m-r-5">  <span>Reward and Reco. Bonus</span></a>
+                            <a href="my-referrals.php" class=""><img src="../assets/images/gift.png" height="25px" width="25px" class="m-r-10"> <span>Plans</span></a>
                         </li>
                         <li>
-                            <a href="#" class=""><img src="../assets/images/bar-chart.png" height="20px" width="20px" class="m-r-10"> <span>Stockish Commission</span></a>
+                            <a href="repurchasing-bonus.php" class=""><img src="../assets/images/box.png" height="20px" width="20px" class="m-r-10"> <span>Product</span></a>
                         </li>
                         <li>
-                            <a href="#" class=""><img src="../assets/images/money-withdrawal.png" height="20px" width="20px" class="m-r-10"> <span>Withdarwal</span></a>
+                            <a href="#" class=""><img src="../assets/images/key.png" height="20px" width="20px" class="m-r-5">  <span>Activation Code</span></a>
                         </li>
                         <li>
-                            <a href="#" class=""><img src="../assets/images/user-profile.png" height="25px" width="25px" class="m-r-10"> <span>Profile</span></a>
+                            <a href="#" class="has-arrow"><img src="../assets/images/manager.png" height="20px" width="20px" class="m-r-10"> <span>Manage Members</span></a>
+                            <ul>                                    
+                                    <li><a href="blog-dashboard.html">Active Members</a></li>
+                                    <li><a href="blog-post.html">Inactive Members</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="withdrawal-table.php" class=""><img src="../assets/images/money-withdrawal.png" height="20px" width="20px" class="m-r-10"> <span>Withdarwal</span></a>
                         </li>
                         <li>
                             <a href="#" class=""><img src="../assets/images/log-out.png" height="25px" width="25px" class="m-r-10"><span>Log Out</span></a>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>:: Lucid :: Forgot Password</title>
+<title>:: Network :: Admin</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -30,17 +30,17 @@
                     </div>
 					<div class="card">
                         <div class="header">
-                            <p class="lead">Recover my password</p>
+                            <p class="lead">Activation Page</p>
                         </div>
                         <div class="body">
-                            <p>Please enter your email address below to receive instructions for resetting password.</p>
+                            <p>Please enter your activation code for verification!.</p>
                             <form class="form-auth-small" action="page-login.php">
                                 <div class="form-group">                                    
-                                    <input type="email" class="form-control" id="signup-password" placeholder="Email">
+                                    <input type="" class="form-control" id="signup-password" placeholder="Enter activation code">
                                 </div>
-                                <button href="page-reset-password.php" type="submit" class="btn btn-primary btn-lg btn-block">RESET PASSWORD</button>
+                                <button href="page-login.php" type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
                                 <div class="bottom">
-                                    <span class="helper-text">Know your password? <a href="page-login.php">LOGIN</a></span>
+                                    <span class="helper-text">Don't have an activation code? <a href="page-login.php">REGISTER</a></span>
                                 </div>
                             </form>
                         </div>

@@ -11,12 +11,9 @@
 <body >
 
     <!-- Page Loader -->
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Lucid"></div>
-            <p>Please wait...</p>
-        </div>
-    </div>
+   <?php
+   include_once "component/page-reloader.php"
+   ?>
     <!-- Overlay For Sidebars -->
 
     <div id="wrapper">
@@ -43,81 +40,46 @@
             </div>
 
             <div class="row clearfix ">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="card top_counter">
                         <div class="body">
-                            <div class="icon"><i class="fa fa-dollar"></i> </div>
+                            <div class="icon"><img src="../assets/images/group-chat.png" width="40" height="40"> </div>
                             <div class="content">
-                                <div class="text">Referral Bonus</div>
+                                <div class="text">Memebers</div>
                                 <h5 class="number">530</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="card top_counter">
                         <div class="body">
-                            <div class="icon"><i class="fa fa-credit-card"></i> </div>
+                            <div class="icon"><img src="../assets/images/gift.png" width="30" height="30"></div>
                             <div class="content">
-                                <div class="text">Purchasing Bonus</div>
+                                <div class="text">Packages</div>
                                 <h5 class="number">7</h5>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="card top_counter">
                         <div class="body">
-                            <div class="icon"><i class="fa fa-level-up"></i> </div>
+                            <div class="icon"><img src="../assets/images/box.png" width="40" height="40">  </div>
                             <div class="content">
-                                <div class="text">Upgrade Bonus</div>
+                                <div class="text">Product</div>
                                 <h5 class="number">$3205</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card top_counter">
-                        <div class="body">
-                            <div class="icon"><i class="fa fa-gift"></i> </div>
-                            <div class="content">
-                                <div class="text"> Pairing Bonus</div>
-                                <h5 class="number">28</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card top_counter">
-                        <div class="body">
-                            <div class="icon"><i class="fa fa-bar-chart"></i> </div>
-                            <div class="content">
-                                <div class="text">Stockish Commission</div>
-                                <h5 class="number">28</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card top_counter">
-                        <div class="body">
-                            <div class="icon"><img src="../assets/images/Pv.png" height="30px" width="30px" class="m-r-10"> </div>
-                            <div class="content">
-                                <div class="text">PV</div>
-                                <h5 class="number">10%</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-          
             <div class="row clearfix">
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="header">
-                            <h2>My Referals</h2>
+                            <h2>Members</h2>
                             <ul class="header-dropdown">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
@@ -203,10 +165,10 @@
     <script src="assets/bundles/jvectormap.bundle.js"></script> <!-- JVectorMap Plugin Js -->
     <script src="assets/bundles/morrisscripts.bundle.js"></script><!-- Morris Plugin Js -->
     <script src="assets/bundles/knob.bundle.js"></script> <!-- Jquery Knob-->
+    <script src="assets/bundles/bootstrap.bundle.min.js"></script> <!-- Jquery Knob-->
 
     <script src="assets/bundles/mainscripts.bundle.js"></script>
     <script src="assets/js/index3.js"></script>
-   
 </body>
 
 </html>
